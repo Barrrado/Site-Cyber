@@ -36,6 +36,7 @@
     max-width: 1024px;
     width: 100%;
     margin: auto;
+    z-index: -1;    
   }
 .conteiner{
     max-width: 1024px;
@@ -60,7 +61,7 @@ header {
 nav{
     display: flex;
     justify-content: flex-end;
-    align-items: center;z-index: 1;
+    align-items: center;
 }
 .menu >li {
     padding-left: 8px;
@@ -197,6 +198,33 @@ main {
 .swiper-button-next{
     color: black;
 }
+.letras-1{
+    background-color: black;
+    background-size: contain;
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+
+.letras-1 > img{
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    height: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.carousel-container .btn {
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
+  /* Mostra os botões quando o mouse está sobre o carrossel */
+  .carousel-container:hover .btn {
+    opacity: 1;
+  }
+
+
 @media only screen and (max-width:580px)  
 {
     .conteiner{
@@ -257,4 +285,5 @@ main {
     padding-right: 0;
     padding-bottom: 0;
   }
+
 }
