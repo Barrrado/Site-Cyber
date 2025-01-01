@@ -41,6 +41,7 @@
           background-color: rgba(131, 2, 2, 0.616);
           font-family: cyberdy;
           color: rgb(255, 239, 14);
+          display: block;
         }
   
         &.active {
